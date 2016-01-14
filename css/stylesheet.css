@@ -1,0 +1,113 @@
+/* nom du projet : site_perso */
+/* description : 3 pages (portfolio, à propos, contact) */
+/* entête, barre de navigation et pied de page communs aux 3 pages */
+/* date : 27/11/2015 */
+body {
+  font-family: 'cursive', 'fantasy', arial, sans-serif;
+}
+/*--------*/
+/* entête */
+/*--------*/
+header {
+  background-color: #4183D7; /* Royal blue */
+  width: 100%;
+  color: white;
+  text-align: center;
+  padding: 0.06em;
+}
+#qualite {
+  font-size: 1em;
+}
+/*---------------------*/
+/* barre de navigation */
+/*---------------------*/
+nav {
+  background-color: #59ABE3; /* Picton blue */
+  width: 100%;
+  text-align: center;
+  padding: 0.06em;
+}
+.navli {
+  display: inline-block;
+  padding-right: 3%;
+}
+.lien {
+  color: white;
+  font-weight: bold;
+  list-style-type: none;
+  text-decoration: none;
+}
+.lien:hover, .lien:focus, #lien_portfolio, #lien_about, #lien_contact {
+  color: #2C3E50; /* Madison blue */
+}
+/*-----------------*/
+/* corps des pages */
+/*-----------------*/
+.corps {
+  width: 70%;
+  color: gray;
+  padding-left: 15%;
+  padding-right: 15%;
+  text-align: justify;
+}
+    /* page portfolio */
+#portfolio_corps {
+  width: 90%;
+  color: gray;
+  text-align: center;
+  margin: auto;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+/*table {
+  width: 45%;
+  position: relative;
+  margin: auto;
+}*/
+#div_autumn, #div_winter, #div_spring, #div_summer {
+  display: inline-block;
+  margin: 0.3%;
+}
+img {
+  width: 16em; /* 250 px */
+  height: 10em; /* 150 px */
+}
+.text_img {
+  background-color: #ECECEC; /* White smoke */
+  margin-top: -0.3%;
+}
+    /* page à propos */
+#about_photo {
+  width: 12.5em; /* 200px */
+  height: 10em; /* 150px */
+  border-radius: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+    /* page contact */
+.contact_img {
+  width: 1.25em; /*20px */
+  height: 1.25em; /* 20px */
+}
+#contact_phone {
+  color: #52B3D9; /* Shakespeare blue */
+}
+.contact_coordo {
+  color: #52B3D9; /* Shakespeare blue */
+  text-decoration: none;
+}
+/*--------------*/
+/* pied de page */
+/*--------------*/
+footer {
+  width: 100%;
+  color: gray;
+  text-align: center;
+  opacity: 0.5;
+}
+footer img {
+  width: 1.6em; /* 25px */
+  height: 1.6em; /* 25px */
+  padding: 0.5%;
+}
